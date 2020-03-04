@@ -1,1 +1,84 @@
+/* GENERAL */
+body {
+  background: #F5F5DC;
+  text-align: center;
+}
 
+.container {
+  width: 800px;
+  max-width: 100%;
+  padding: 0;
+  background: snow;
+}
+
+[class^="col-"] {
+  height: 100%;
+}
+
+[class^="col-"]:not(:last-child) {
+  border-right: 4px solid black;
+}
+
+[class^="col-"]:not(:first-child) {
+  border-left: 4px solid black;
+}
+
+
+/* UTILITIES */
+/* Utilitis: CONTAINER*/
+.height1 {
+  height: 40px;
+}
+
+.height2 {
+  height: 80px;
+}
+
+.height3 {
+  height: 120px;
+}
+
+.border-top {
+  border-top: 4px solid black;
+}
+
+.border-bottom {
+  border-bottom: 4px solid black;
+}
+
+/* Utilities: COLUMNS */
+.blue {
+  background: blue;
+}
+
+.red {
+  background: red;
+}
+
+.silver {
+  background: silver;
+}
+
+.yellow {
+  background: yellow;
+}
+
+
+/* HEADER */
+header {
+  padding: 10px 0 15px 0;
+}
+
+
+/* MAIN */
+main {
+  text-align: center;
+}
+
+.big-container {
+  display: inline-block;
+  height: 500px;
+  width: 820px;
+  padding: 10px;
+  background: white;
+}
